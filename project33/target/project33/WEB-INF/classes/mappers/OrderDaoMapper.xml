@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.OrderDao">
+
+    <insert id="add" parameterType="order">
+        insert into torder(appkey,user_order_id ,train_date ,is_accept_standing ,choose_seats,from_station_code,to_station_code,checi,paymentAccount,passengers,status)
+        values(#{appkey},#{user_order_id},#{train_date},#{is_accept_standing},#{choose_seats},#{from_station_code},#{to_station_code},#{checi},#{paymentAccount},#{passengers},#{status})
+        <selectKey keyProperty="order_id" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <select id="findByAppkey" resultType="order">
+        select * from torder where appkey = #{appkey}
+    </select>
+
+    <select id="findByUserOrderId" resultType="order">
+        select * from torder where user_order_id = #{id}
+    </select>
+
+    <update id="setStatusByOrderId" >
+        update torder set status=#{arg1} where order_id = #{arg0}
+    </update>
+
+</mapper>

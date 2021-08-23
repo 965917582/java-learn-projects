@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sdt.dao.CommoditDao">
+
+    <resultMap id="commoditMap" type="commodit">
+        <id column="comm_id" property="commId"></id>
+        <result column="comm_name" property="commName"></result>
+        <result column="comm_price" property="commPrice"></result>
+    </resultMap>
+
+    <select id="findAll" resultMap="commoditMap" >
+        select * from t_commodit;
+    </select>
+
+    <select id="findById" resultMap="commoditMap"  >
+        select * from t_commodit where comm_id=#{id};
+    </select>
+</mapper>

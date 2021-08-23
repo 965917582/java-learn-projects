@@ -1,0 +1,76 @@
+project1:spring AOP前导，maven里用动态代理做业务层事务管理（手写ioc在这）
+project2:spring中配置AOP，xml方式学习
+project3:基于注解的spring AOP配置
+project4：把project1改spring的AOP实现
+project5:springmvc和springmvc若干注解
+project6:模拟springmvc的@RequestMapping注解，当请求来时调用控制器方法
+project7:讲project6
+project8:mybatis入门案例
+project9:讲自己写数据库连接池之后用动态代理实现业务层事务管理
+project10:自定义mybatis
+project11:mybatis
+project12:mybatis多表查询：一对多
+project13:mybatis多表查询：多对多
+project14:mybatis注解开发
+project15:SSM整合学习
+project16:SSM基础整合框架
+project17:SSM增删改查练习(注解)
+project18:SSM增删改查练习(mybatis用映射文件xml)
+project19:购物车（自制）
+project20：SSM基础增删改查加一级联动(选择员工姓名)
+project21:三级联动（省市区，没写呢）
+project22：购物车（自定义前端接口）
+project23：购物车（对接前端接口）
+project24:购物车前端
+project25：购物车（前后端分离，联调，仅后端）
+project26：权限管理（自己摸索版）
+project27：权限管理（有提供接口和数据库版）（静态spring容器测试写在这了）
+project28: 支付宝支付调用接口
+project29: 微信h5支付调用接口
+project30: 权限管理(提供前后端分离的接口)
+project31: 人事系统旧数据库面试者数据迁移到新数据库
+project32: 火车票订票
+project33: 火车票模拟聚合数据提供占座(提交订单)和出票接口和设置回调
+project34: 单点登录系统1【在D://Users/workspace】
+project35: 单点登录系统2
+project36: 单点登录sso系统
+ssm74edv：搞钱-博众集团生产管理系统【在F:\java学习\搞钱\管理系统】
+project37: mybatisplus入门案例
+project38: 雷丰阳springboot入门学习
+project39：雷丰阳springboot web学习-实验
+project40：雷丰阳springboot web学习2(实际上没开，在实验项目上弄了)
+project41：zookeeper负载均衡B项目(发起请求) springboot
+project42：zookeeper负载均衡A1项目 springboot
+project43：zookeeper负载均衡A2项目 springboot
+project44：雷丰阳springboot数据访问
+project45：rpc的项目A，只有接口
+project46：rpc的项目B，有接口和实现类 让A调B
+project47：雷丰阳springboot整合jpa(数据访问)
+project48：redis集群程序
+project49：springboot 缓存
+project50：多线程
+project51: 雷丰阳springboot整合rabbitMQ
+project52: 用spring aop实现事务
+project53: 封装HttpClient (用project19的控制器测试过)
+project54: 充值项目
+project55: 单点登录2 A1
+project56: 单点登录2 SSO
+project57: 单点登录2 A2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

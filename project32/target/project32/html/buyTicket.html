@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订票</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/buyTicket.js"></script>
+</head>
+<body>
+    <h4>列车信息</h4>
+    车次：<div id="checi"></div>
+    出发站：<div id="fromcode"></div>
+    到达站：<div  id="tocode"></div>
+    出发日期：<div  id="goTime"></div><br>
+
+    <h4>乘客信息</h4>
+    票种：
+    <select name="piaotypename" id="piaotypename">
+        <option value="成人票">成人票</option>
+        <option value="儿童票">儿童票</option>
+        <option value="学生票">学生票</option>
+        <option value="残军票">残军票</option>
+    </select>
+    席别：
+    <select name="zwname" id="zwname">
+    </select><br>
+    姓名：<input type="text" id="realname"><br>
+    证件类型：中国居民身份证<br>
+    证件号码：<input type="text" id="idno"><br>
+    手机号码：<input type="text" id="phone"><br>
+
+    <button id="btn">提交订单</button>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.base.EmpDao">
+
+    <resultMap id="empMap" type="emp">
+        <id column="emp_id" property="empId"></id>
+        <result column="emp_name" property="empName"></result>
+        <result column="emp_phone" property="empPhone"></result>
+        <result column="emp_type" property="empType"></result>
+        <result column="emp_dept" property="empDept"></result>
+        <result column="emp_desc" property="empDesc"></result>
+    </resultMap>
+
+    <select id="findAll" resultMap="empMap">
+        select * from t_emp;
+    </select>
+
+    <select id="findById" resultMap="empMap">
+        select * from t_emp where emp_id=#{id};
+    </select>
+
+    <insert id="add" parameterType="emp">
+        insert into t_emp(emp_name,emp_phone,emp_type,emp_dept,emp_desc) values(empName,empPhone,empType,empDept,empDesc)
+    </insert>
+
+    <update id="update" parameterType="emp">
+        update t_emp set emp_name=#{empName},emp_phone=#{empPhone},emp_type=#{empType},emp_dept=#{empDept},emp_desc=#{empDesc}
+        where emp_id=#{empId}
+    </update>
+
+    <delete id="deleteById">
+        delete from t_emp where emp_id=#{empId}
+    </delete>
+
+</mapper>

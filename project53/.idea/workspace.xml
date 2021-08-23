@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82ba84c5-0a00-499e-96cd-a4475e32c5b5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\maven_work\repository" />
+        <option name="mavenHome" value="F:/maven_work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven_work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1uG2qFEId7HEHyxOA5ff7NV6Yga" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project27" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="HttpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HttpClient" />
+      <module name="project53" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="project53" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.HttpClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82ba84c5-0a00-499e-96cd-a4475e32c5b5" name="Default Changelist" comment="" />
+      <created>1624277793879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624277793879</updated>
+      <workItem from="1624277796403" duration="11723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="431" height="438" key="DebuggerActiveHint" timestamp="1624285232233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="431" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1624285232233" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1624278786777">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624278786777" />
+    <state width="1323" height="29" key="GridCell.Tab.0.bottom" timestamp="1624340262738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624340262738" />
+    <state width="1323" height="29" key="GridCell.Tab.0.center" timestamp="1624340262738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624340262738" />
+    <state width="1323" height="29" key="GridCell.Tab.0.left" timestamp="1624340262738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624340262738" />
+    <state width="1323" height="29" key="GridCell.Tab.0.right" timestamp="1624340262738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624340262738" />
+    <state width="1323" height="29" key="GridCell.Tab.1.bottom" timestamp="1624340262739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624340262739" />
+    <state width="1323" height="29" key="GridCell.Tab.1.center" timestamp="1624340262739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1624340262739" />
+    <state width="1323" height="29" key="GridCell.Tab.1.left" timestamp="1624340262739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1624340262739" />
+    <state width="1323" height="29" key="GridCell.Tab.1.right" timestamp="1624340262739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="29" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1624340262739" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1624282986318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1624282986318" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java</url>
+          <line>2450</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyHttpGet.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MyHttpGet.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

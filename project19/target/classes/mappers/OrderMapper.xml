@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sdt.dao.OrderDao">
+
+    <insert id="add" parameterType="order">
+        insert into t_order(order_submit_time) values(#{orderSubmitTime})
+        <selectKey keyColumn="order_id" keyProperty="orderId" resultType="int" order="AFTER">
+            select  last_insert_id();
+        </selectKey>
+    </insert>
+
+    <resultMap id="orderMap" type="order">
+        <id column="order_id" property="orderId"></id>
+        <result column="order_submit_time" property="orderSubmitTime"></result>
+        <collection property="orderCommodits" ofType="commodit">
+            <id column="comm_id" property="commId"></id>
+            <result column="comm_name" property="commName"></result>
+            <result column="comm_price" property="commPrice"></result>
+            <result column="comm_order_num" property="commNum"></result>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="orderMap">
+        select * from t_order o  join  t_comm_order co  join t_commodit c where o.order_id = co.order_id and co.comm_id = c.comm_id
+    </select>
+
+    <delete id="deleteById" parameterType="int">
+        delete from t_order where order_id=#{id}
+    </delete>
+</mapper>

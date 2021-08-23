@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.RoleDao">
+
+    <select id="findAll" resultType="role">
+        select * from role
+    </select>
+
+    <select id="findActionIdByRoleId" resultType="int">
+        select actionId from roleandaction where roleId = #{id}
+    </select>
+
+    <select id="findMenuIdByRoleId" resultType="int">
+        select menuId from roleandmenu where roleId = #{id}
+    </select>
+
+    <insert id="addActionByRoleId">
+        insert into roleandaction(roleId,actionId) values(#{arg0},#{arg1})
+    </insert>
+
+    <insert id="addMenuByRoleId">
+        insert into roleandmenu(roleId,menuId) values(#{arg0},#{arg1})
+    </insert>
+
+    <delete id="deleteMenuRelationByRoleId">
+        delete from roleandmenu where roleId = #{id}
+    </delete>
+
+    <delete id="deleteActionRelationByRoleId">
+        delete from roleandaction where roleId = #{id}
+    </delete>
+</mapper>

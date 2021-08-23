@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac59bc3e-a4f5-485e-b607-a8141c0e4b04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\maven_work\repository" />
+        <option name="mavenHome" value="F:/maven_work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven_work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1pmAOJyTs7NzULwusQ3BDa3vFpH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project12" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sdt.dao.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RoleDaoTest.testFindAll">
+    <configuration name="RoleDaoTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.RoleDaoTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.UserTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoleDaoTest.testFindAll" />
+        <item itemvalue="JUnit.UserTest.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac59bc3e-a4f5-485e-b607-a8141c0e4b04" name="Default Changelist" comment="" />
+      <created>1615777858311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615777858311</updated>
+      <workItem from="1615777861311" duration="3423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1615778855478">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="880" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615778855478" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1615786537608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615786537608" />
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom" timestamp="1615790356343">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615790356343" />
+    <state width="1323" height="70" key="GridCell.Tab.0.center" timestamp="1615790356342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="70" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615790356342" />
+    <state width="1323" height="70" key="GridCell.Tab.0.left" timestamp="1615790356342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="70" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615790356342" />
+    <state width="1323" height="70" key="GridCell.Tab.0.right" timestamp="1615790356342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="70" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615790356342" />
+    <state x="57" y="67" key="new project wizard" timestamp="1615790354791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615790354791" />
+  </component>
+</project>

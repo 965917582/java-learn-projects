@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.MenuDao">
+
+    <resultMap id="menuMap" type="menu">
+        <id column="menu_id" property="menuId"></id>
+        <result column="menu_name" property="menuName"></result>
+        <result column="menu_type" property="menuType"></result>
+        <result column="menu_desc" property="menuDesc"></result>
+        <result column="menu_action" property="menuAction"></result>
+        <result column="menu_parent" property="menuParent"></result>
+    </resultMap>
+    <select id="findAll" resultMap="menuMap">
+        select * from t_menu;
+    </select>
+
+</mapper>

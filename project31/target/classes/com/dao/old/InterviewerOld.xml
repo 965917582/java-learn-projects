@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.old.InterviewerOldDao">
+    <!--获取interviewee所有面试人-->
+    <select id="findAll" resultType="com.pojo.InterviewerOld">
+        select * from interviewee
+    </select>
+
+    <select id="findIntervieweesOldByInterveId" resultType="com.pojo.IntervieweesOld">
+        select * from interviewees where interve_id = #{id}
+    </select>
+
+</mapper>

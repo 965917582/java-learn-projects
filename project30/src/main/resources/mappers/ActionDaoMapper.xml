@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.ActionDao">
+
+    <resultMap id="actionMap" type="sysaction">
+        <id column="actionId" property="actionId"></id>
+        <result column="actionName" property="actionName"></result>
+        <result column="type" property="type"></result>
+        <result column="menuId" property="menuId"></result>
+        <result column="remark" property="remark"></result>
+    </resultMap>
+
+    <select id="findAllName" resultType="string">
+        SELECT actionName from sysaction;
+    </select>
+
+    <select id="findAllNameByRoleId" resultType="string">
+        SELECT actionName FROM roleandaction r join sysaction s on r.actionId = s.actionId where r.roleId=1
+    </select>
+
+    <select id="findAllNameByType" resultType="string">
+        SELECT actionName FROM sysaction where type=#{type}
+    </select>
+    
+    <select id="findActionListByMenuId"  resultMap="actionMap">
+        select * from sysaction where menuId = #{id}
+    </select>
+
+    <select id="findActionListByMenuIdAndType"  resultMap="actionMap">
+        select * from sysaction where menuId = #{arg0} and type = #{arg1}
+    </select>
+
+
+    <select id="findByActionId"  resultMap="actionMap">
+        select * from sysaction where actionId =#{id}
+    </select>
+
+    <update id="updateActionName" parameterType="sysaction">
+        update sysaction set actionName =#{actionName}  where actionId=#{actionId}
+    </update>
+
+    <update id="setMenuId" parameterType="sysaction">
+        update sysaction set menuId =#{menuId}  where actionId=#{actionId}
+    </update>
+
+    <update id="update" parameterType="sysaction">
+        update sysaction set actionName =#{actionName} , menuId =#{menuId}, type =#{type}, remark =#{remark} where actionId=#{actionId}
+    </update>
+
+    <insert id="add" parameterType="sysaction">
+        insert into sysaction(actionName,type,menuId,remark) values(#{actionName},#{type},#{menuId},#{remark})
+        <selectKey keyColumn="actionId" keyProperty="actionId" resultType="int" order="AFTER">
+            select  last_insert_id();
+        </selectKey>
+    </insert>
+
+    <delete id="deleteByActionId">
+        delete from sysaction where actionId=#{id}
+    </delete>
+
+    <delete id="deleteByMenuId">
+        delete from sysaction where menuId=#{id}
+    </delete>
+</mapper>

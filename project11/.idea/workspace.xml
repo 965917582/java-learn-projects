@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ebb42ce-ef99-4d59-a7f4-ce5cffeb8dc3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\maven_work\repository" />
+        <option name="mavenHome" value="F:/maven_work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven_work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1pY5Hq9zmYXp78m1IcGexlRVLSe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.testFindUserByVo">
+    <configuration name="MybatisTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindUserByVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindUserByVo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sdt.dao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sdt.dao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sdt.dao.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.testFindUserByVo" />
+        <item itemvalue="JUnit.MybatisTest.testSave" />
+        <item itemvalue="JUnit.MybatisTest.testFindByName" />
+        <item itemvalue="JUnit.MybatisTest.testFindTotal" />
+        <item itemvalue="JUnit.MybatisTest.testFindOne" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ebb42ce-ef99-4d59-a7f4-ce5cffeb8dc3" name="Default Changelist" comment="" />
+      <created>1615347097453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615347097453</updated>
+      <workItem from="1615347099988" duration="299000" />
+      <workItem from="1615357181374" duration="13916000" />
+      <workItem from="1615543896943" duration="67000" />
+      <workItem from="1615771636746" duration="319000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1615368653240">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615368653240" />
+    <state width="1104" height="196" key="GridCell.Tab.0.bottom" timestamp="1615518444762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615518444762" />
+    <state width="1104" height="196" key="GridCell.Tab.0.center" timestamp="1615518444761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615518444761" />
+    <state width="1104" height="196" key="GridCell.Tab.0.left" timestamp="1615518444761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615518444761" />
+    <state width="1104" height="196" key="GridCell.Tab.0.right" timestamp="1615518444761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615518444761" />
+    <state width="1104" height="196" key="GridCell.Tab.1.bottom" timestamp="1615518444762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615518444762" />
+    <state width="1104" height="196" key="GridCell.Tab.1.center" timestamp="1615518444762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615518444762" />
+    <state width="1104" height="196" key="GridCell.Tab.1.left" timestamp="1615518444762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615518444762" />
+    <state width="1104" height="196" key="GridCell.Tab.1.right" timestamp="1615518444762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1104" height="196" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615518444762" />
+    <state x="57" y="67" key="new project wizard" timestamp="1615772014628">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615772014628" />
+    <state x="419" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615358933267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="419" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615358933267" />
+  </component>
+</project>

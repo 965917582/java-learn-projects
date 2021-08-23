@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--配置spring的Ioc -->
+    <bean id="accountService" class="com.sdt.service.impl.AccountServiceImpl"></bean>
+
+    <!--配置aop -->
+    <bean id="logger" class="com.sdt.utils.Logger"></bean>
+    <aop:config>
+        <!--配置切面 -->
+        <aop:aspect id="logAdvice" ref="logger">
+            <aop:pointcut id="pc1" expression="execution(* com.sdt.service.impl.*.*(..))"></aop:pointcut>
+            <!--配置前置通知
+            <aop:before method="beforePrintLog" pointcut-ref="pc1"></aop:before>
+            &lt;!&ndash;配置后置通知 &ndash;&gt;
+            <aop:after-returning method="afterReturningPrintLog" pointcut-ref="pc1"></aop:after-returning>
+            &lt;!&ndash;配置前置通知 &ndash;&gt;
+            <aop:after-throwing method="bafterThrowingPrintLog" pointcut-ref="pc1"></aop:after-throwing>
+            &lt;!&ndash;配置前置通知 &ndash;&gt;
+            <aop:after method="afterPrintLog" pointcut-ref="pc1"></aop:after>-->
+
+            <!--配置环绕通知 -->
+            <aop:around method="aroundPrintLog" pointcut-ref="pc1"></aop:around>
+
+
+        </aop:aspect>
+    </aop:config>
+</beans>

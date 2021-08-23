@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17763277-3bd2-4baf-9dac-b8a4dad44be5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\maven_work\repository" />
+        <option name="mavenHome" value="F:/maven_work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven_work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1rFFYIEotzzwvlsR09pREgHLxDE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/java学习/开发组/hr/per" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\project31\src\main\resources\com.dao.new" />
+      <recent name="D:\IdeaProject\project31\src\main\resources\com\dao\old" />
+      <recent name="D:\IdeaProject\project31\src\main\resources\mappers\new" />
+      <recent name="D:\IdeaProject\project31\src\main\resources\mappers\old" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dao.xin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\project31\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Run2">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.run.Run" />
+      <module name="project31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.run.Run2" />
+      <module name="project31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.run" />
+      <option name="MAIN_CLASS_NAME" value="com.run.Run" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Run2" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="JUnit.Run.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17763277-3bd2-4baf-9dac-b8a4dad44be5" name="Default Changelist" comment="" />
+      <created>1618563976464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618563976464</updated>
+      <workItem from="1618563979965" duration="8764000" />
+      <workItem from="1618923634381" duration="3449000" />
+      <workItem from="1619007150065" duration="4292000" />
+      <workItem from="1619054117532" duration="14647000" />
+      <workItem from="1619173408479" duration="1965000" />
+      <workItem from="1619404256190" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="88" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1619072135854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="88" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1619072135854" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618631924317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1618631924317" />
+    <state width="1275" height="466" key="DebuggerActiveHint" timestamp="1619013215426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1275" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1619013215426" />
+    <state x="171" y="56" key="FileChooserDialogImpl" timestamp="1619404324090">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="171" y="56" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619404324090" />
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1619357439536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619357439536" />
+    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1619357439536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619357439536" />
+    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1619357439536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619357439536" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1619357439536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619357439536" />
+    <state width="1323" height="237" key="GridCell.Tab.1.bottom" timestamp="1619098052854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619098052854" />
+    <state width="1323" height="237" key="GridCell.Tab.1.center" timestamp="1619098052853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1619098052853" />
+    <state width="1323" height="237" key="GridCell.Tab.1.left" timestamp="1619098052853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1619098052853" />
+    <state width="1323" height="237" key="GridCell.Tab.1.right" timestamp="1619098052853">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="237" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1619098052853" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1619085978211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1619085978211" />
+    <state x="349" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618925039122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1618925039122" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/run/Run2.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

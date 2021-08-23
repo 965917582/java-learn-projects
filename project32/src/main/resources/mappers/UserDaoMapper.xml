@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.UserDao">
+
+    <insert id="add" parameterType="user">
+        insert into user(account ,pwd ,phone ,email,realname) values(#{account},#{pwd},#{phone},#{email},"")
+    </insert>
+
+    <select id="login" resultType="user">
+        select * from user where account=#{arg0} and pwd=#{arg1}
+    </select>
+
+</mapper>

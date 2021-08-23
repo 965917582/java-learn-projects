@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sdt.dao.UserDao">
+
+    <resultMap id="userMap" type="user">
+        <id column="user_id" property="userid"></id>
+        <result column="user_account" property="account"></result>
+        <result column="user_psd" property="pwd"></result>
+        <result column="user_username" property="uname"></result>
+    </resultMap>
+    <select id="findByNamePsd" parameterType="user" resultMap="userMap">
+        select * from t_user where user_account = #{account} and user_psd = #{pwd};
+    </select>
+
+    <insert id="add" parameterType="user">
+        insert into t_user(user_account,user_name,user_psd) values(#{account},#{uname},#{pwd});
+    </insert>
+
+</mapper>

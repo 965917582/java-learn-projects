@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.NotifyUrlDao">
+
+    <insert id="add" parameterType="notifyurl">
+        insert into notify_url(appkey ,submit_callback ,pay_callback,refund_callback) values(#{appkey},#{submit_callback},#{pay_callback},#{refund_callback})
+    </insert>
+
+    <select id="findByAppkey" resultType="notifyurl">
+        select * from notify_url where appkey=#{appkey}
+    </select>
+
+</mapper>

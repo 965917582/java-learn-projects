@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f705b824-0d81-497b-9a9c-2ebeee47bac7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\work\maven_work\repository" />
+        <option name="mavenHome" value="F:/maven_work/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven_work\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1tbF7MwJDJDcGjuzZsS00wZgXfU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project23" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.talk.deadLockCondition" />
+      <recent name="com.talk.deadLock2" />
+      <recent name="com.talk.deadLock" />
+      <recent name="com.talk.reentrantLock" />
+      <recent name="com.talk.readWriteLock" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\project50\src\main\java\com\other\httpclient" />
+      <recent name="D:\IdeaProject\project50\src\main\java\com\other" />
+      <recent name="D:\IdeaProject\project50\src\main\java\com\talk\proxy2" />
+      <recent name="D:\IdeaProject\project50\src\main\java\com\talk\deadLockCondition" />
+      <recent name="D:\IdeaProject\project50\src\main\java\com\talk\pcCondition" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (3)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.talk.deadLock.Test" />
+      <module name="project50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talk.deadLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.talk.proxy2.Test" />
+      <module name="project50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talk.proxy2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.invoke.Test" />
+      <module name="project50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.invoke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.talk.deadLockCondition.Test" />
+      <module name="project50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talk.deadLockCondition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Volatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.talk.threadVolatile.Volatile" />
+      <module name="project50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.talk.threadVolatile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Volatile" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f705b824-0d81-497b-9a9c-2ebeee47bac7" name="Default Changelist" comment="" />
+      <created>1623029714761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623029714761</updated>
+      <workItem from="1623029730216" duration="18201000" />
+      <workItem from="1623110099977" duration="18752000" />
+      <workItem from="1623247103721" duration="159000" />
+      <workItem from="1623309712804" duration="32941000" />
+      <workItem from="1623805352921" duration="2903000" />
+      <workItem from="1623992425829" duration="8748000" />
+      <workItem from="1624237819538" duration="5101000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="50" key="#Project_Structure" timestamp="1624009129016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="50" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1624009129016" />
+    <state x="976" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1623993061900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="976" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1623993061900" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623750625919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1623750625919" />
+    <state width="405" height="466" key="DebuggerActiveHint" timestamp="1623746945438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="405" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1623746945438" />
+    <state x="554" y="243" key="FileChooserDialogImpl" timestamp="1624261593949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="554" y="243" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1624261593949" />
+    <state width="1323" height="103" key="GridCell.Tab.0.bottom" timestamp="1624266689829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624266689829" />
+    <state width="1323" height="103" key="GridCell.Tab.0.center" timestamp="1624266689829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624266689829" />
+    <state width="1323" height="103" key="GridCell.Tab.0.left" timestamp="1624266689829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624266689829" />
+    <state width="1323" height="103" key="GridCell.Tab.0.right" timestamp="1624266689829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="103" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624266689829" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1623747804953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1623747804953" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1623747804953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1623747804953" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1623747804953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1623747804953" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1623747804953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1623747804953" />
+    <state x="49" y="82" key="new project wizard" timestamp="1624266681513">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="49" y="82" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1624266681513" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624256116112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1624256116112" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+</project>

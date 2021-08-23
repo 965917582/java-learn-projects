@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.MenuDao">
+
+    <resultMap id="menuMap" type="sysmenu">
+        <id column="menuId" property="menuId"></id>
+        <result column="menuName" property="menuName"></result>
+        <result column="type" property="type"></result>
+        <result column="actionId" property="actionId"></result>
+        <result column="parentId" property="parentId"></result>
+        <result column="remark" property="remark"></result>
+        <association property="sysAction" javaType="Sysaction">
+            <id column="actionId" property="actionId"></id>
+            <result column="actionName" property="actionName"></result>
+            <result column="actiontype" property="type"></result>
+            <result column="menuId" property="menuId"></result>
+            <result column="actionRemark" property="remark"></result>
+        </association>
+    </resultMap>
+    <resultMap id="menuMapWithoutAction" type="sysmenu">
+        <id column="menuId" property="menuId"></id>
+        <result column="menuName" property="menuName"></result>
+        <result column="type" property="type"></result>
+        <result column="actionId" property="actionId"></result>
+        <result column="parentId" property="parentId"></result>
+        <result column="remark" property="remark"></result>
+    </resultMap>
+
+    <select id="findByParentId" resultMap="menuMap">
+        SELECT m.*,s.actionName,s.type as 'actiontype',s.remark as 'actionRemark' FROM menu m,sysaction s where m.parentId=#{id} and s.menuId = m.menuId
+    </select>
+
+    <select id="findByParentIdAndRoleId" resultMap="menuMap">
+        SELECT m.*,s.actionName,s.type as 'actiontype',s.remark as 'actionRemark'
+        FROM
+        (SELECT m.menuId,m.menuName,m.actionId,m.parentId,m.remark,m.type FROM roleandmenu r join menu m on r.menuId=m.menuId where roleId = #{arg0}) m
+        ,sysaction s
+        where m.parentId=#{arg1} and s.menuId = m.menuId
+    </select>
+
+    <select id="findByParentIdWithoutAction" resultMap="menuMapWithoutAction">
+        SELECT * from menu where parentId=#{id}
+    </select>
+
+    <select id="findByMenuId" resultMap="menuMap">
+        SELECT *,s.actionName from menu m,sysaction s where m.actionId = s.actionId and m.menuId=#{id}
+    </select>
+
+    <update id="update" parameterType="sysmenu">
+        update menu set remark =#{remark} ,menuName=#{menuName} where menuId=#{menuId}
+    </update>
+
+    <insert id="add" parameterType="sysmenu">
+        insert into menu(menuName,type,actionId,parentId,remark) values(#{menuName},#{type},#{actionId},#{parentId},#{remark})
+        <selectKey keyColumn="menuId" keyProperty="menuId" resultType="int" order="AFTER">
+            select  last_insert_id();
+        </selectKey>
+    </insert>
+
+    <delete id="deleteByMenuId" >
+        delete from menu where menuId = #{id}
+    </delete>
+
+</mapper>

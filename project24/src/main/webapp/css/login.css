@@ -1,0 +1,43 @@
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.box {
+  width: 500px;
+  height: 370px;
+  background-color: #eee;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+h3 {
+  margin-bottom: 0;
+  margin-top: 45px;
+  font-size: 26px;
+}
+
+input {
+  display: inline-block;
+  margin: 35px 0 0 0;
+  width: 230px;
+  height: 25px;
+}
+
+.btn {
+  background-color: #c1272d;
+  color: #fff;
+  border: none;
+  height: 30px;
+}
+
+.register {
+  float: right;
+  margin-right: 140px;
+  color: #9f9f9f;
+  text-decoration: underline;
+  font-size: 12px;
+}

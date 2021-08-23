@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sdt.dao.GoodsDao">
+
+    <resultMap id="goodsMap" type="goods">
+        <id column="goods_id" property="goodsId"></id>
+        <result column="goods_name" property="goodsName"></result>
+        <result column="goods_price" property="goodsPrice"></result>
+        <result column="goods_stock" property="goodsStock"></result>
+    </resultMap>
+
+    <select id="findAll" resultMap="goodsMap">
+        select * from t_goods;
+    </select>
+
+</mapper>

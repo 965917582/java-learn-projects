@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.EmpDao">
+
+    <resultMap id="empMap" type="emp">
+        <id column="empId" property="empId"></id>
+        <result column="empName" property="empName"></result>
+        <result column="type" property="empTypeName"></result>
+        <result column="tel" property="tel"></result>
+        <result column="remark" property="remark"></result>
+        <result column="deptId" property="deptId"></result>
+        <result column="deptName" property="deptName"></result>
+    </resultMap>
+
+    <resultMap id="empMap2" type="emp">
+        <id column="empId" property="empId"></id>
+        <result column="empName" property="empName"></result>
+        <result column="type" property="type"></result>
+        <result column="tel" property="tel"></result>
+        <result column="remark" property="remark"></result>
+        <result column="deptId" property="deptId"></result>
+        <result column="deptName" property="deptName"></result>
+    </resultMap>
+
+    <select id="findAll" resultMap="empMap" parameterType="emp">
+        SELECT * from emp , dept where emp.deptId = dept.deptId
+        <if test="empName != null and empName != ''">
+            and emp.empName = #{empName}
+        </if>
+    </select>
+
+    <select id="findByEmpId" resultMap="empMap">
+        select * from emp where empId=#{id}
+    </select>
+
+    <insert id="add" parameterType="emp">
+        insert into emp(empName,tel,type,deptId,remark) values(#{empName},#{tel},#{empTypeName},#{deptId},#{remark})
+    </insert>
+
+    <insert id="add2" parameterType="emp">
+        insert into emp(empName,tel,type,deptId,remark) values(#{empName},#{tel},#{type},#{deptId},#{remark})
+    </insert>
+
+    <update id="update" parameterType="emp">
+        update emp set empName=#{empName},tel=#{tel},type=#{type},deptId=#{deptId},remark=#{remark} where empId=#{empId}
+    </update>
+
+</mapper>

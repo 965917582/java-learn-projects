@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/aop
+         http://www.springframework.org/schema/aop/spring-aop.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="servlet1" class="com.service.Service1"></bean>
+    <!--配置aop-->
+    <bean id="transaction" class="com.Advice"></bean>
+    <aop:config>
+        <aop:aspect id="txAdvice" ref="transaction">
+            <aop:pointcut id="pc1" expression="execution(* com.service.*.*(..))"/>
+            <aop:before method="setAutoCommit" pointcut-ref="pc1"></aop:before>
+            <aop:after-returning method="commit" pointcut-ref="pc1"></aop:after-returning>
+            <aop:after-throwing method="rollback" pointcut-ref="pc1"></aop:after-throwing>
+            <aop:after method="closeConn" pointcut-ref="pc1"></aop:after>
+        </aop:aspect>
+    </aop:config>
+    
+    
+
+</beans>

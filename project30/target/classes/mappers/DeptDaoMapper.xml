@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.DeptDao">
+
+    <resultMap id="deptMap" type="dept">
+        <id column="deptId" property="deptId"></id>
+        <result column="deptName" property="deptName"></result>
+        <result column="linkman" property="linkman"></result>
+        <result column="tel" property="tel"></result>
+        <result column="address" property="address"></result>
+        <result column="remark" property="remark"></result>
+    </resultMap>
+    <select id="findAll" resultMap="deptMap" parameterType="dept">
+        SELECT * from dept
+        <where>
+            <if test="deptName != null and deptName != ''">
+                dept.deptName = #{deptName}
+            </if>
+            <if test="address != null and address != ''">
+                and dept.address = #{address}
+            </if>
+        </where>
+    </select>
+
+    <select id="findById" resultMap="deptMap">
+        select * from dept where deptId=#{id}
+    </select>
+
+    <insert id="add" parameterType="dept">
+        insert into dept(deptName,tel,linkman,address,remark) values(#{deptName},#{tel},#{linkman},#{address},#{remark})
+    </insert>
+
+    <update id="update" parameterType="dept">
+        update dept set deptName = #{deptName} ,tel=#{tel},linkman=#{linkman},address=#{address},remark=#{remark} where deptId=#{deptId}
+    </update>
+
+    <delete id="deleteByDeptId">
+        delete from dept where deptId = #{id}
+    </delete>
+
+</mapper>

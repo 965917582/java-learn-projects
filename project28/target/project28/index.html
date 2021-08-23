@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付</title>
+</head>
+<body>
+    订单号：<input type="text" name="out_trade_no" id="out_trade_no"/>
+    订单标题：<input type="text" name="subject" id="subject"/>
+    总价：<input type="text" name="total_amount" id="total_amount"/>
+    <input type="button" value="支付" id="pay"/>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/pay.js"></script>
+
+    <div hidden="hidden" id="toAliPay"></div>
+</body>
+</html>
